@@ -2,7 +2,7 @@
 
   AnyPicker - Customizable Picker for Mobile OS
   Version 2.0.9
-  Copyright (c)2017 Lajpat Shah
+  Copyright (c)2018 Lajpat Shah
   Contributors : https://github.com/nehakadam/AnyPicker/contributors
   Repository : https://github.com/nehakadam/AnyPicker
   Homepage : https://nehakadam.github.io/AnyPicker
@@ -1586,6 +1586,7 @@ AnyPicker.prototype = $.extend(AnyPicker.prototype, {
 	
 		apo.adjustComponents();
 		apo.setSelectedAndInvalidValuesForRows(true);
+		apo._setDateTimeTabs(apo.tmp.sDateTimeTab);
 	},
 
 	// Public Method
@@ -2525,8 +2526,8 @@ AnyPicker.prototype = $.extend(AnyPicker.prototype, {
 			}
 
 			var bSetHeaderTitle = true;
-			if(!apo.tmp.bIsManualDragging) // !$.CF.compareStrings(apo.setting.theme, "iOS") && 
-				bSetHeaderTitle = false;
+			// if(!apo.tmp.bIsManualDragging) // !$.CF.compareStrings(apo.setting.theme, "iOS") && 
+			// 	bSetHeaderTitle = false;
 			if(bSetHeaderTitle)
 				$(apo.tmp.overlaySelector).find(".ap-header__title").text(sHeaderTitle);
 		}
