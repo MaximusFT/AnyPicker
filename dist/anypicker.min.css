@@ -2,7 +2,7 @@
 
   AnyPicker - Customizable Picker for Mobile OS
   Version 2.0.9
-  Copyright (c)2017 Lajpat Shah
+  Copyright (c)2018 Lajpat Shah
   Contributors : https://github.com/nehakadam/AnyPicker/contributors
   Repository : https://github.com/nehakadam/AnyPicker
   Homepage : https://nehakadam.github.io/AnyPicker
