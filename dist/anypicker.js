@@ -924,6 +924,7 @@ AnyPicker.prototype = {
 			if($.AnyPicker.extra.bHasCSSAnimation)
 			{
 				$(apo.tmp.overlaySelector).addClass("ap-hide");
+				$(apo.tmp.overlaySelector).css({"opacity": 0});
 				if($.CF.compareStrings(apo.setting.layout, "fixed"))
 				{
 					if($.CF.compareStrings(apo.setting.vAlign, "top"))
